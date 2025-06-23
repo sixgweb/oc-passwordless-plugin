@@ -38,7 +38,7 @@ class Plugin extends PluginBase
     public function registerMailTemplates()
     {
         return [
-            'nocio.passwordless::mail.login' => 'Passwordless login'
+            'nocio.passwordless::mail.login' => 'nocio.passwordless::mail.login'
         ];
     }
 
