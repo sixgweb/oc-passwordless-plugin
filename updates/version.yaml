@@ -15,3 +15,4 @@
 1.0.12: nocio.passwordless.user.beforeLoginEmail event (thanks to @massimomegistus)
 1.0.13: Add fallback base_url using Config::get('app.url') when currentPageUrl() fails (thanks to @snipiba)
 1.0.14: Update dependency for RainLab.User to support v2 (thanks to @snipiba)
+1.0.15: Update registerMailTemplates return value to work with OCMS 3.x
